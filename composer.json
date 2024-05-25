@@ -1,0 +1,19 @@
+{
+    "name": "root/app",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qK1e"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "autoload": {
+        "psr-4": {
+		"qK1e\\Overloading\\": "src/",
+		"tests\\": "tests/src/"
+	}
+    }
+}

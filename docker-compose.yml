@@ -1,0 +1,12 @@
+services:
+  php:
+    build: ./docker/php
+    volumes:
+      - ./:/var/www/html
+    tty: true
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+  composer:
+    image: composer:latest
+    volumes:
+      - ./:/app
