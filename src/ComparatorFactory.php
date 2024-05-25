@@ -2,11 +2,11 @@
 
 namespace qK1e\Overloading;
 
-use qK1e\Overloading\PassedArgument\BasicComparator;
-use qK1e\Overloading\PassedArgument\FalseConstantComparator;
-use qK1e\Overloading\PassedArgument\IComparator;
-use qK1e\Overloading\PassedArgument\NullComparator;
-use qK1e\Overloading\PassedArgument\ObjectComparator;
+use qK1e\Overloading\Comparators\BasicComparator;
+use qK1e\Overloading\Comparators\FalseConstantComparator;
+use qK1e\Overloading\Comparators\IComparator;
+use qK1e\Overloading\Comparators\NullComparator;
+use qK1e\Overloading\Comparators\ObjectComparator;
 
 class ComparatorFactory
 {

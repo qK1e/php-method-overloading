@@ -3,7 +3,7 @@
 namespace Comparators;
 
 use PHPUnit\Framework\TestCase;
-use qK1e\Overloading\PassedArgument\ObjectComparator;
+use qK1e\Overloading\Comparators\ObjectComparator;
 use ReflectionFunction;
 use tests\AbstractClass;
 use tests\AbstractClassExtended;
