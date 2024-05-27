@@ -6,7 +6,7 @@ class BasicComparator implements IComparator
 {
     private string $passedType;
 
-    public function __construct(int|float|string|bool $value) {
+    public function __construct(int|float|string|bool|array $value) {
         $this->passedType = gettype($value);
     }
 
